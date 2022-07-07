@@ -13,6 +13,8 @@
 
     if ($stmt->execute()) {
       $message = 'Nuevo Usuario Creado';
+      header('Location: login.php');
+      
     } else {
       $message = 'Hubo un error al crear tu cuenta';
     }
