@@ -16,6 +16,8 @@
     } else {
       $message = 'Hubo un error al crear tu cuenta';
     }
+  }else{
+    $message = 'Todos los campos son obligatorios';
   }
 ?>
 <style>
